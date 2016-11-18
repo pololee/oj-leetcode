@@ -1,6 +1,6 @@
 /**
  * What if the number of nodes in the linked list has only odd number of nodes?
- * The last node should note be swapped.
+ * The last node should not be swapped.
  */
 
 package javasolutions;
