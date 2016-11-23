@@ -1,6 +1,7 @@
 package javasolutions.learn;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Employee implements Comparable<Employee> {
   private int id, age;
@@ -45,6 +46,20 @@ public class Employee implements Comparable<Employee> {
     return str;
   }
 
+  public static Comparator<Employee> SalaryComparator = new Comparator<Employee>() {
+    @Override
+    public int compare(Employee e1, Employee e2) {
+      return (e1.getSalary() - e2.getSalary());
+    }
+  };
+
+  public static Comparator<Employee> AgeComparator = new Comparator<Employee>() {
+    @Override
+    public int compare(Employee e1, Employee e2) {
+      return e1.getAge() - e2.getAge();
+    }
+  };
+
   public static void main(String[] args) {
     Employee[] employees = new Employee[4];
     employees[0] = new Employee(10, "Mikey", 25, 10000);
@@ -53,6 +68,13 @@ public class Employee implements Comparable<Employee> {
     employees[3] = new Employee(1, "Pankaj", 32, 50000);
 
     Arrays.sort(employees);
+    System.out.println("Sort employees by ID");
+    for(int i = 0; i < employees.length; i++) {
+      System.out.println(employees[i].toString());
+    }
+
+    Arrays.sort(employees, Employee.SalaryComparator);
+    System.out.println("Sort employees by Salary");
     for(int i = 0; i < employees.length; i++) {
       System.out.println(employees[i].toString());
     }
