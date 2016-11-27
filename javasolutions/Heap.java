@@ -125,6 +125,10 @@ public class Heap<T extends Comparable<T>> {
     return out;
   }
 
+  public int size() {
+    return this.size;
+  }
+
   public static void main(String[] args) {
     Heap<String> h = new Heap<String>();
     h.insert("p");
@@ -132,8 +136,10 @@ public class Heap<T extends Comparable<T>> {
     h.insert("i");
     h.insert("o");
     System.out.println(h);
+    System.out.println(h.size());
     h.deleteMin();
     System.out.println(h);
+    System.out.println(h.size());
 
     Heap<Integer> tmp = new Heap<Integer>();
     Integer[] a = {4,7,7,7,5,0,2,3,5,1};
