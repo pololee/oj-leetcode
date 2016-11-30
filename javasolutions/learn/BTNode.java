@@ -1,17 +1,17 @@
-package javasolutions;
+package javasolutions.learn;
 
-public class BSTNode<T> {
+public class BTNode<T> {
 	// package-private
 	T data;
-	BSTNode<T> left, right;
+	BTNode<T> left, right;
 
-	public BSTNode(T dataInput, BSTNode<T> leftNode, BSTNode<T> rightNode) {
+	public BTNode(T dataInput, BTNode<T> leftNode, BTNode<T> rightNode) {
 		data = dataInput;
 		left = leftNode;
 		right = rightNode;
 	}
 
-	public BSTNode(T dataInput) {
+	public BTNode(T dataInput) {
 		this(dataInput, null, null);
 	}
 
@@ -20,11 +20,11 @@ public class BSTNode<T> {
 	}
 
 	public static void main(String[] args) {
-		BSTNode<Integer> a = new BSTNode<Integer>(10);
+		BTNode<Integer> a = new BTNode<Integer>(10);
 		System.out.println("a: " + a.toString());
-		BSTNode<Integer> b = new BSTNode<Integer>(100);
+		BTNode<Integer> b = new BTNode<Integer>(100);
 		System.out.println("b: " + b.toString());
-		BSTNode<Integer> c = new BSTNode<Integer>(1000, a, b);
+		BTNode<Integer> c = new BTNode<Integer>(1000, a, b);
 		System.out.println("c: " + c.toString());
 		System.out.println("c.left: " + c.left.toString());
 		System.out.println("c.right: " + c.right.toString());
