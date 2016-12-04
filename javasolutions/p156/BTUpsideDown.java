@@ -26,6 +26,10 @@ package javasolutions.p156;
 import javasolutions.TreeNode;
 
 public class BTUpsideDown {
+  /**
+   * Top down approach
+   * keep the record of parent and parentRight
+   */
   public TreeNode upsideDown(TreeNode root) {
     TreeNode current = root, parent = null, parentRight = null;
 
@@ -42,5 +46,24 @@ public class BTUpsideDown {
     }
 
     return parent;
+  }
+
+  /**
+   * Bottom up approach
+   */
+  public TreeNode upsideDownV2(TreeNode root) {
+    return dfsUpsideDown(root, null);
+  }
+
+  private TreeNode dfsUpsideDown(TreeNode node, TreeNode parent) {
+    if (node == null) {
+      return parent;
+    }
+
+    TreeNode root = dfsUpsideDown(node.left, node);
+    node.left = (parent == null) ? null : parent.right;
+    node.right = parent;
+
+    return root;
   }
 }
