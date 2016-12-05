@@ -43,10 +43,37 @@ public class SingleNumberII {
     return result;
   }
 
+  // http://www.geeksforgeeks.org/find-the-element-that-appears-once/
+  public int singleNumberV2(int[] nums) {
+    int ones = 0, twos = 0;
+
+    for(int i=0; i < nums.length; i++) {
+      // "one & nums[i]" gives the bits that are in both 'ones' and the new element
+      // Add these bits to 'twos' using OR
+      twos = twos | (ones & nums[i]);
+
+      // XOR the new element with previous 'ones' to get all bits appearing odd number of times
+      ones = ones ^ nums[i];
+
+      // The common_bit_mask are those bits which appear third time.
+      // So these bits should not be there in both 'ones' and 'twos'.
+      // common_bit_mask contains all these bits as ), so that the bits can
+      // be removed from 'ones' and 'twos'
+      int common_bit_mask = ~(ones & twos);
+
+      // Remove common bits (the bits that appear third time) from 'ones' and 'twos'
+      ones = ones & common_bit_mask;
+      twos = twos & common_bit_mask;
+    }
+
+    return ones;
+  }
+
   public static void main(String[] args) {
     int[] nums = {1, 1, 1, 3};
 
     SingleNumberII finder = new SingleNumberII();
     System.out.println(finder.singleNumber(nums));
+    System.out.println(finder.singleNumberV2(nums));
   }
 }
