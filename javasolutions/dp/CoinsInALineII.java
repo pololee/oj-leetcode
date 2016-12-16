@@ -43,10 +43,43 @@ public class CoinsInALineII {
     return DP[start][end];
   }
 
+  public int maxAmountIterative(int[] nums) {
+    if(nums.length == 0) return 0;
+
+    int length = nums.length;
+    int[][] DP = new int[length][length];
+
+    int startPlusTwo, startPlusOneEndMinusOne, endMinusTwo;
+    int pickNumsStartValue, pickNumsEndValue;
+
+    for (int intervalDistance=0; intervalDistance < length; intervalDistance++) {
+      for (int start=0, end=intervalDistance; start<length && end<length; start++, end++) {
+        if (start == end) {
+          DP[start][end] = nums[start];
+        } else if (start < end){
+          // P(i+2, j)
+          startPlusTwo = (start+2 <= end) ? DP[start+2][end] : 0;
+          // P(i+1, j-1)
+          startPlusOneEndMinusOne = (start+1 <= end-1) ? DP[start+1][end-1] : 0;
+          // P(i, j-2)
+          endMinusTwo = (start <= end-2) ? DP[start][end-2] : 0;
+
+          pickNumsStartValue = nums[start] + Math.min(startPlusTwo, startPlusOneEndMinusOne);
+          pickNumsEndValue = nums[end] + Math.min(startPlusOneEndMinusOne, endMinusTwo);
+
+          DP[start][end] = Math.max(pickNumsStartValue, pickNumsEndValue);
+        }
+      }
+    }
+
+    return DP[0][length-1];
+  }
+
   public static void main(String[] args) {
     int[] test = {3, 2, 2, 3, 1, 2};
 
     CoinsInALineII cal = new CoinsInALineII();
     System.out.println(cal.maxAmount(test));
+    System.out.println(cal.maxAmountIterative(test));
   }
 }
