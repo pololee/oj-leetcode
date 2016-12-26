@@ -1,6 +1,7 @@
 package javasolutions.learnBT;
 
 import javasolutions.learnBT.TreeNode;
+import java.util.Stack;
 
 public class BTPreOrderTravel {
   public void recursive(TreeNode root) {
@@ -20,10 +21,29 @@ public class BTPreOrderTravel {
     return output;
   }
 
+  public void iterative(TreeNode root) {
+    if(root == null) return;
+
+    StringBuilder builder = new StringBuilder();
+    Stack<TreeNode> stack = new Stack<>();
+    stack.push(root);
+
+    while(!stack.empty()) {
+      TreeNode node = stack.pop();
+      builder.append(String.valueOf(node.val)).append("#");
+      
+      if(node.right != null) stack.push(node.right);
+      if(node.left != null) stack.push(node.left);
+    }
+
+    System.out.println(builder.toString());
+  }
+
   public static void main(String[] args) {
     TreeNode root = TreeNode.dummyTree();
 
     BTPreOrderTravel travel = new BTPreOrderTravel();
     travel.recursive(root);
+    travel.iterative(root);
   }
 }
