@@ -2,7 +2,7 @@ package javasolutions.learnBT;
 
 import javasolutions.learnBT.TreeNode;
 
-public class BTInOrderSearch {
+public class BTInOrderTravel {
   public void recursive(TreeNode root) {
     if(root == null) return;
 
@@ -23,7 +23,7 @@ public class BTInOrderSearch {
   public static void main(String[] args) {
     TreeNode root = TreeNode.dummyTree();
 
-    BTInOrderSearch search = new BTInOrderSearch();
-    search.recursive(root);
+    BTInOrderTravel travel = new BTInOrderTravel();
+    travel.recursive(root);
   }
 }
