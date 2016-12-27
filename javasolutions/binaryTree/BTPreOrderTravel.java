@@ -1,6 +1,6 @@
-package javasolutions.learnBT;
+package javasolutions.binaryTree;
 
-import javasolutions.learnBT.TreeNode;
+import javasolutions.binaryTree.TreeNode;
 import java.util.Stack;
 
 public class BTPreOrderTravel {

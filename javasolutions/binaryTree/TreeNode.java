@@ -1,4 +1,4 @@
-package javasolutions.learnBT;
+package javasolutions.binaryTree;
 
 import java.util.LinkedList;
 import java.util.Queue;
