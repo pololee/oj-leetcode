@@ -43,4 +43,23 @@ public class BTUpsideDown {
 
     return parent;
   }
+
+  public TreeNode upsideDownRecursive(TreeNode root) {
+    return upsideDownRecursiveHelper(root, null);
+  }
+
+  private TreeNode upsideDownRecursiveHelper(TreeNode node, TreeNode parent) {
+    if(node == null) return parent;
+    TreeNode root = upsideDownRecursiveHelper(node.left, node);
+
+    if(parent == null) {
+      node.left = null;
+      node.right = null;
+    } else {
+      node.left = parent.right;
+      node.right = parent;
+    }
+
+    return root;
+  }
 }
