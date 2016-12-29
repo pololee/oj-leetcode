@@ -57,7 +57,7 @@ public class SingleNumberII {
 
       // The common_bit_mask are those bits which appear third time.
       // So these bits should not be there in both 'ones' and 'twos'.
-      // common_bit_mask contains all these bits as ), so that the bits can
+      // common_bit_mask contains all these bits as 0, so that the bits can
       // be removed from 'ones' and 'twos'
       int common_bit_mask = ~(ones & twos);
 
