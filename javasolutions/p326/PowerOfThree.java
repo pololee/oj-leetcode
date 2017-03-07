@@ -1,3 +1,5 @@
+// http://www.cnblogs.com/grandyang/p/5138212.html
+
 package javasolutions.p326;
 
 public class PowerOfThree {
