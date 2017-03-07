@@ -1,3 +1,7 @@
+/**
+ * http://www.cnblogs.com/grandyang/p/5403783.html
+ */
+
 package javasolutions.p342;
 
 // 1 1
