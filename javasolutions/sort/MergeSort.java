@@ -17,18 +17,19 @@ public class MergeSort {
       mergeSort(nums, start, middle);
       mergeSort(nums, middle + 1, end);
 
-      merge(nums, start, middle + 1, end);
+      merge(nums, start, end);
     }
   }
 
-  private void merge(int[] nums, int leftStart, int rightStart, int rightEnd) {
-    int leftEnd = rightStart - 1;
-    int leftIdx = leftStart;
-    int rightIdx = rightStart;
+  private void merge(int[] nums, int start, int end) {
+    int middle = start + (end - start)/2;
 
-    int index = 0, length = rightEnd - leftStart + 1;
+    int leftIdx = start;
+    int rightIdx = middle + 1;
 
-    while(leftIdx <= leftEnd && rightIdx <= rightEnd) {
+    int index = 0, length = end - start + 1;
+
+    while(leftIdx <= middle && rightIdx <= end) {
       if(nums[leftIdx] < nums[rightIdx]) {
         temp[index] = nums[leftIdx];
         leftIdx++;
@@ -40,20 +41,20 @@ public class MergeSort {
       index++;
     }
 
-    while(leftIdx <= leftEnd) {
+    while(leftIdx <= middle) {
       temp[index] = nums[leftIdx];
       leftIdx++;
       index++;
     }
 
-    while(rightIdx <= rightEnd) {
+    while(rightIdx <= end) {
       temp[index] = nums[rightIdx];
       rightIdx++;
       index++;
     }
 
     for (int i=0; i<length; i++) {
-      nums[leftStart + i] = temp[i];
+      nums[start + i] = temp[i];
     }
   }
 
