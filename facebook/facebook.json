@@ -1,0 +1,5484 @@
+{
+  "name": "Facebook",
+  "translatedName": null,
+  "questions": [
+    {
+      "status": "ac",
+      "questionId": "38",
+      "questionFrontendId": "38",
+      "title": "Count and Say",
+      "titleSlug": "count-and-say",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"200.4K\", \"totalSubmission\": \"539.3K\", \"acRate\": \"37.2%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "209",
+      "questionFrontendId": "209",
+      "title": "Minimum Size Subarray Sum",
+      "titleSlug": "minimum-size-subarray-sum",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"123.4K\", \"totalSubmission\": \"379.1K\", \"acRate\": \"32.5%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Binary Search",
+          "translatedName": null,
+          "slug": "binary-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "80",
+      "questionFrontendId": "80",
+      "title": "Remove Duplicates from Sorted Array II",
+      "titleSlug": "remove-duplicates-from-sorted-array-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"154.8K\", \"totalSubmission\": \"414.8K\", \"acRate\": \"37.3%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "252",
+      "questionFrontendId": "252",
+      "title": "Meeting Rooms",
+      "titleSlug": "meeting-rooms",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"52.4K\", \"totalSubmission\": \"106.4K\", \"acRate\": \"49.2%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Sort",
+          "translatedName": null,
+          "slug": "sort",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "78",
+      "questionFrontendId": "78",
+      "title": "Subsets",
+      "titleSlug": "subsets",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"247.2K\", \"totalSubmission\": \"538.3K\", \"acRate\": \"45.9%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Backtracking",
+          "translatedName": null,
+          "slug": "backtracking",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Bit Manipulation",
+          "translatedName": null,
+          "slug": "bit-manipulation",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Coupang",
+          "translatedName": null,
+          "slug": "coupang",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "67",
+      "questionFrontendId": "67",
+      "title": "Add Binary",
+      "titleSlug": "add-binary",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"210.3K\", \"totalSubmission\": \"605.7K\", \"acRate\": \"34.7%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "261",
+      "questionFrontendId": "261",
+      "title": "Graph Valid Tree",
+      "titleSlug": "graph-valid-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"59.5K\", \"totalSubmission\": \"154.3K\", \"acRate\": \"38.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Union Find",
+          "translatedName": null,
+          "slug": "union-find",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Graph",
+          "translatedName": null,
+          "slug": "graph",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Zenefits",
+          "translatedName": null,
+          "slug": "zenefits",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "275",
+      "questionFrontendId": "275",
+      "title": "H-Index II",
+      "titleSlug": "h-index-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"65K\", \"totalSubmission\": \"184.9K\", \"acRate\": \"35.1%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Binary Search",
+          "translatedName": null,
+          "slug": "binary-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "278",
+      "questionFrontendId": "278",
+      "title": "First Bad Version",
+      "titleSlug": "first-bad-version",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"154.1K\", \"totalSubmission\": \"590.1K\", \"acRate\": \"26.1%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Binary Search",
+          "translatedName": null,
+          "slug": "binary-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "211",
+      "questionFrontendId": "211",
+      "title": "Add and Search Word - Data structure design",
+      "titleSlug": "add-and-search-word-data-structure-design",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"79.1K\", \"totalSubmission\": \"305K\", \"acRate\": \"25.9%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Backtracking",
+          "translatedName": null,
+          "slug": "backtracking",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Design",
+          "translatedName": null,
+          "slug": "design",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Trie",
+          "translatedName": null,
+          "slug": "trie",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "265",
+      "questionFrontendId": "265",
+      "title": "Paint House II",
+      "titleSlug": "paint-house-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"32.4K\", \"totalSubmission\": \"83.7K\", \"acRate\": \"38.7%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "301",
+      "questionFrontendId": "301",
+      "title": "Remove Invalid Parentheses",
+      "titleSlug": "remove-invalid-parentheses",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"72.6K\", \"totalSubmission\": \"201.7K\", \"acRate\": \"36.0%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "168",
+      "questionFrontendId": "168",
+      "title": "Excel Sheet Column Title",
+      "titleSlug": "excel-sheet-column-title",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"140K\", \"totalSubmission\": \"507.9K\", \"acRate\": \"27.6%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Zenefits",
+          "translatedName": null,
+          "slug": "zenefits",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "25",
+      "questionFrontendId": "25",
+      "title": "Reverse Nodes in k-Group",
+      "titleSlug": "reverse-nodes-in-k-group",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"130.6K\", \"totalSubmission\": \"404.6K\", \"acRate\": \"32.3%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Linked List",
+          "translatedName": null,
+          "slug": "linked-list",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "23",
+      "questionFrontendId": "23",
+      "title": "Merge k Sorted Lists",
+      "titleSlug": "merge-k-sorted-lists",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"236.4K\", \"totalSubmission\": \"817.1K\", \"acRate\": \"28.9%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Linked List",
+          "translatedName": null,
+          "slug": "linked-list",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Divide and Conquer",
+          "translatedName": null,
+          "slug": "divide-and-conquer",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Heap",
+          "translatedName": null,
+          "slug": "heap",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Airbnb",
+          "translatedName": null,
+          "slug": "airbnb",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "IXL",
+          "translatedName": null,
+          "slug": "ixl",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "173",
+      "questionFrontendId": "173",
+      "title": "Binary Search Tree Iterator",
+      "titleSlug": "binary-search-tree-iterator",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"136.6K\", \"totalSubmission\": \"310.4K\", \"acRate\": \"44.0%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Stack",
+          "translatedName": null,
+          "slug": "stack",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Design",
+          "translatedName": null,
+          "slug": "design",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "200",
+      "questionFrontendId": "200",
+      "title": "Number of Islands",
+      "titleSlug": "number-of-islands",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"186.8K\", \"totalSubmission\": \"502.6K\", \"acRate\": \"37.2%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Union Find",
+          "translatedName": null,
+          "slug": "union-find",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Zenefits",
+          "translatedName": null,
+          "slug": "zenefits",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "125",
+      "questionFrontendId": "125",
+      "title": "Valid Palindrome",
+      "titleSlug": "valid-palindrome",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"238.4K\", \"totalSubmission\": \"863.5K\", \"acRate\": \"27.6%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Zenefits",
+          "translatedName": null,
+          "slug": "zenefits",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "283",
+      "questionFrontendId": "283",
+      "title": "Move Zeroes",
+      "titleSlug": "move-zeroes",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"305.3K\", \"totalSubmission\": \"588.5K\", \"acRate\": \"51.9%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "117",
+      "questionFrontendId": "117",
+      "title": "Populating Next Right Pointers in Each Node II",
+      "titleSlug": "populating-next-right-pointers-in-each-node-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"135.8K\", \"totalSubmission\": \"402.2K\", \"acRate\": \"33.8%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "274",
+      "questionFrontendId": "274",
+      "title": "H-Index",
+      "titleSlug": "h-index",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"100.4K\", \"totalSubmission\": \"296.2K\", \"acRate\": \"33.9%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Sort",
+          "translatedName": null,
+          "slug": "sort",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "79",
+      "questionFrontendId": "79",
+      "title": "Word Search",
+      "titleSlug": "word-search",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"185.7K\", \"totalSubmission\": \"653.5K\", \"acRate\": \"28.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Backtracking",
+          "translatedName": null,
+          "slug": "backtracking",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "158",
+      "questionFrontendId": "158",
+      "title": "Read N Characters Given Read4 II - Call multiple times",
+      "titleSlug": "read-n-characters-given-read4-ii-call-multiple-times",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"43.1K\", \"totalSubmission\": \"175.6K\", \"acRate\": \"24.6%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "334",
+      "questionFrontendId": "334",
+      "title": "Increasing Triplet Subsequence",
+      "titleSlug": "increasing-triplet-subsequence",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"63.6K\", \"totalSubmission\": \"160.3K\", \"acRate\": \"39.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "49",
+      "questionFrontendId": "49",
+      "title": "Group Anagrams",
+      "titleSlug": "group-anagrams",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"210.4K\", \"totalSubmission\": \"532.1K\", \"acRate\": \"39.5%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "85",
+      "questionFrontendId": "85",
+      "title": "Maximal Rectangle",
+      "titleSlug": "maximal-rectangle",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"89.3K\", \"totalSubmission\": \"297K\", \"acRate\": \"30.1%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Stack",
+          "translatedName": null,
+          "slug": "stack",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "286",
+      "questionFrontendId": "286",
+      "title": "Walls and Gates",
+      "titleSlug": "walls-and-gates",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"48.7K\", \"totalSubmission\": \"106.3K\", \"acRate\": \"45.8%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "50",
+      "questionFrontendId": "50",
+      "title": "Pow(x, n)",
+      "titleSlug": "powx-n",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"221.1K\", \"totalSubmission\": \"842.1K\", \"acRate\": \"26.2%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Binary Search",
+          "translatedName": null,
+          "slug": "binary-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "311",
+      "questionFrontendId": "311",
+      "title": "Sparse Matrix Multiplication",
+      "titleSlug": "sparse-matrix-multiplication",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"48.2K\", \"totalSubmission\": \"91.3K\", \"acRate\": \"52.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "98",
+      "questionFrontendId": "98",
+      "title": "Validate Binary Search Tree",
+      "titleSlug": "validate-binary-search-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"253.7K\", \"totalSubmission\": \"1M\", \"acRate\": \"24.2%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "57",
+      "questionFrontendId": "57",
+      "title": "Insert Interval",
+      "titleSlug": "insert-interval",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"131.6K\", \"totalSubmission\": \"449.3K\", \"acRate\": \"29.3%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Sort",
+          "translatedName": null,
+          "slug": "sort",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "157",
+      "questionFrontendId": "157",
+      "title": "Read N Characters Given Read4",
+      "titleSlug": "read-n-characters-given-read4",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"50.9K\", \"totalSubmission\": \"178.1K\", \"acRate\": \"28.6%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "277",
+      "questionFrontendId": "277",
+      "title": "Find the Celebrity",
+      "titleSlug": "find-the-celebrity",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"51.4K\", \"totalSubmission\": \"144.9K\", \"acRate\": \"35.5%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "71",
+      "questionFrontendId": "71",
+      "title": "Simplify Path",
+      "titleSlug": "simplify-path",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"116.5K\", \"totalSubmission\": \"438.9K\", \"acRate\": \"26.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Stack",
+          "translatedName": null,
+          "slug": "stack",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "90",
+      "questionFrontendId": "90",
+      "title": "Subsets II",
+      "titleSlug": "subsets-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"152.1K\", \"totalSubmission\": \"391.2K\", \"acRate\": \"38.9%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Backtracking",
+          "translatedName": null,
+          "slug": "backtracking",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "325",
+      "questionFrontendId": "325",
+      "title": "Maximum Size Subarray Sum Equals k",
+      "titleSlug": "maximum-size-subarray-sum-equals-k",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"53.3K\", \"totalSubmission\": \"123.5K\", \"acRate\": \"43.1%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Palantir",
+          "translatedName": null,
+          "slug": "palantir",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "128",
+      "questionFrontendId": "128",
+      "title": "Longest Consecutive Sequence",
+      "titleSlug": "longest-consecutive-sequence",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"146.7K\", \"totalSubmission\": \"380K\", \"acRate\": \"38.6%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Union Find",
+          "translatedName": null,
+          "slug": "union-find",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "102",
+      "questionFrontendId": "102",
+      "title": "Binary Tree Level Order Traversal",
+      "titleSlug": "binary-tree-level-order-traversal",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"251.2K\", \"totalSubmission\": \"578.7K\", \"acRate\": \"43.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "69",
+      "questionFrontendId": "69",
+      "title": "Sqrt(x)",
+      "titleSlug": "sqrtx",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"243K\", \"totalSubmission\": \"833.2K\", \"acRate\": \"29.2%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Binary Search",
+          "translatedName": null,
+          "slug": "binary-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "221",
+      "questionFrontendId": "221",
+      "title": "Maximal Square",
+      "titleSlug": "maximal-square",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"91.6K\", \"totalSubmission\": \"298.8K\", \"acRate\": \"30.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Airbnb",
+          "translatedName": null,
+          "slug": "airbnb",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "257",
+      "questionFrontendId": "257",
+      "title": "Binary Tree Paths",
+      "titleSlug": "binary-tree-paths",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"165.9K\", \"totalSubmission\": \"395K\", \"acRate\": \"42.0%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "236",
+      "questionFrontendId": "236",
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "titleSlug": "lowest-common-ancestor-of-a-binary-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"173K\", \"totalSubmission\": \"574.5K\", \"acRate\": \"30.1%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "121",
+      "questionFrontendId": "121",
+      "title": "Best Time to Buy and Sell Stock",
+      "titleSlug": "best-time-to-buy-and-sell-stock",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"308.8K\", \"totalSubmission\": \"710.1K\", \"acRate\": \"43.5%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "234",
+      "questionFrontendId": "234",
+      "title": "Palindrome Linked List",
+      "titleSlug": "palindrome-linked-list",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"168.5K\", \"totalSubmission\": \"499.2K\", \"acRate\": \"33.8%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Linked List",
+          "translatedName": null,
+          "slug": "linked-list",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "IXL",
+          "translatedName": null,
+          "slug": "ixl",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "273",
+      "questionFrontendId": "273",
+      "title": "Integer to English Words",
+      "titleSlug": "integer-to-english-words",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"62.2K\", \"totalSubmission\": \"271.4K\", \"acRate\": \"22.9%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "26",
+      "questionFrontendId": "26",
+      "title": "Remove Duplicates from Sorted Array",
+      "titleSlug": "remove-duplicates-from-sorted-array",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"374.1K\", \"totalSubmission\": \"1M\", \"acRate\": \"37.0%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "88",
+      "questionFrontendId": "88",
+      "title": "Merge Sorted Array",
+      "titleSlug": "merge-sorted-array",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"246.5K\", \"totalSubmission\": \"756.3K\", \"acRate\": \"32.6%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "238",
+      "questionFrontendId": "238",
+      "title": "Product of Array Except Self",
+      "titleSlug": "product-of-array-except-self",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"158.1K\", \"totalSubmission\": \"311.7K\", \"acRate\": \"50.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "33",
+      "questionFrontendId": "33",
+      "title": "Search in Rotated Sorted Array",
+      "titleSlug": "search-in-rotated-sorted-array",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"268.8K\", \"totalSubmission\": \"841.3K\", \"acRate\": \"32.0%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Binary Search",
+          "translatedName": null,
+          "slug": "binary-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "208",
+      "questionFrontendId": "208",
+      "title": "Implement Trie (Prefix Tree)",
+      "titleSlug": "implement-trie-prefix-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"118K\", \"totalSubmission\": \"371.8K\", \"acRate\": \"31.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Design",
+          "translatedName": null,
+          "slug": "design",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Trie",
+          "translatedName": null,
+          "slug": "trie",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "43",
+      "questionFrontendId": "43",
+      "title": "Multiply Strings",
+      "titleSlug": "multiply-strings",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"143.3K\", \"totalSubmission\": \"507.8K\", \"acRate\": \"28.2%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "235",
+      "questionFrontendId": "235",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "titleSlug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"202.7K\", \"totalSubmission\": \"505.1K\", \"acRate\": \"40.1%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "314",
+      "questionFrontendId": "314",
+      "title": "Binary Tree Vertical Order Traversal",
+      "titleSlug": "binary-tree-vertical-order-traversal",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"46.2K\", \"totalSubmission\": \"120.9K\", \"acRate\": \"38.2%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "161",
+      "questionFrontendId": "161",
+      "title": "One Edit Distance",
+      "titleSlug": "one-edit-distance",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"53.4K\", \"totalSubmission\": \"169.4K\", \"acRate\": \"31.5%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "297",
+      "questionFrontendId": "297",
+      "title": "Serialize and Deserialize Binary Tree",
+      "titleSlug": "serialize-and-deserialize-binary-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"109.7K\", \"totalSubmission\": \"308.5K\", \"acRate\": \"35.5%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Design",
+          "translatedName": null,
+          "slug": "design",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yahoo",
+          "translatedName": null,
+          "slug": "yahoo",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "91",
+      "questionFrontendId": "91",
+      "title": "Decode Ways",
+      "titleSlug": "decode-ways",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"179K\", \"totalSubmission\": \"871.5K\", \"acRate\": \"20.5%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "10",
+      "questionFrontendId": "10",
+      "title": "Regular Expression Matching",
+      "titleSlug": "regular-expression-matching",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"206.6K\", \"totalSubmission\": \"848.6K\", \"acRate\": \"24.3%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Backtracking",
+          "translatedName": null,
+          "slug": "backtracking",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Airbnb",
+          "translatedName": null,
+          "slug": "airbnb",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "20",
+      "questionFrontendId": "20",
+      "title": "Valid Parentheses",
+      "titleSlug": "valid-parentheses",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"351.9K\", \"totalSubmission\": \"1M\", \"acRate\": \"34.2%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Stack",
+          "translatedName": null,
+          "slug": "stack",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Airbnb",
+          "translatedName": null,
+          "slug": "airbnb",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Zenefits",
+          "translatedName": null,
+          "slug": "zenefits",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "13",
+      "questionFrontendId": "13",
+      "title": "Roman to Integer",
+      "titleSlug": "roman-to-integer",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"246.5K\", \"totalSubmission\": \"506.7K\", \"acRate\": \"48.6%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yahoo",
+          "translatedName": null,
+          "slug": "yahoo",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "127",
+      "questionFrontendId": "127",
+      "title": "Word Ladder",
+      "titleSlug": "word-ladder",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"171.1K\", \"totalSubmission\": \"838.9K\", \"acRate\": \"20.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "218",
+      "questionFrontendId": "218",
+      "title": "The Skyline Problem",
+      "titleSlug": "the-skyline-problem",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"65.1K\", \"totalSubmission\": \"221.8K\", \"acRate\": \"29.4%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Divide and Conquer",
+          "translatedName": null,
+          "slug": "divide-and-conquer",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Heap",
+          "translatedName": null,
+          "slug": "heap",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Binary Indexed Tree",
+          "translatedName": null,
+          "slug": "binary-indexed-tree",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Segment Tree",
+          "translatedName": null,
+          "slug": "segment-tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "56",
+      "questionFrontendId": "56",
+      "title": "Merge Intervals",
+      "titleSlug": "merge-intervals",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"209.8K\", \"totalSubmission\": \"647.8K\", \"acRate\": \"32.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Sort",
+          "translatedName": null,
+          "slug": "sort",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "75",
+      "questionFrontendId": "75",
+      "title": "Sort Colors",
+      "titleSlug": "sort-colors",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"230.2K\", \"totalSubmission\": \"585.6K\", \"acRate\": \"39.3%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Sort",
+          "translatedName": null,
+          "slug": "sort",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Pocket Gems",
+          "translatedName": null,
+          "slug": "pocket-gems",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "28",
+      "questionFrontendId": "28",
+      "title": "Implement strStr()",
+      "titleSlug": "implement-strstr",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"284.4K\", \"totalSubmission\": \"969.6K\", \"acRate\": \"29.3%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Pocket Gems",
+          "translatedName": null,
+          "slug": "pocket-gems",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "285",
+      "questionFrontendId": "285",
+      "title": "Inorder Successor in BST",
+      "titleSlug": "inorder-successor-in-bst",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"64.1K\", \"totalSubmission\": \"184.2K\", \"acRate\": \"34.8%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Pocket Gems",
+          "translatedName": null,
+          "slug": "pocket-gems",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "215",
+      "questionFrontendId": "215",
+      "title": "Kth Largest Element in an Array",
+      "titleSlug": "kth-largest-element-in-an-array",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"222.7K\", \"totalSubmission\": \"537.5K\", \"acRate\": \"41.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Divide and Conquer",
+          "translatedName": null,
+          "slug": "divide-and-conquer",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Heap",
+          "translatedName": null,
+          "slug": "heap",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Pocket Gems",
+          "translatedName": null,
+          "slug": "pocket-gems",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "133",
+      "questionFrontendId": "133",
+      "title": "Clone Graph",
+      "titleSlug": "clone-graph",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"155.1K\", \"totalSubmission\": \"616.3K\", \"acRate\": \"25.2%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Graph",
+          "translatedName": null,
+          "slug": "graph",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Pocket Gems",
+          "translatedName": null,
+          "slug": "pocket-gems",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "269",
+      "questionFrontendId": "269",
+      "title": "Alien Dictionary",
+      "titleSlug": "alien-dictionary",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"42.9K\", \"totalSubmission\": \"160.3K\", \"acRate\": \"26.8%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Graph",
+          "translatedName": null,
+          "slug": "graph",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Topological Sort",
+          "translatedName": null,
+          "slug": "topological-sort",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Airbnb",
+          "translatedName": null,
+          "slug": "airbnb",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Pocket Gems",
+          "translatedName": null,
+          "slug": "pocket-gems",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "139",
+      "questionFrontendId": "139",
+      "title": "Word Break",
+      "titleSlug": "word-break",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"221.3K\", \"totalSubmission\": \"694.2K\", \"acRate\": \"31.9%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yahoo",
+          "translatedName": null,
+          "slug": "yahoo",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Pocket Gems",
+          "translatedName": null,
+          "slug": "pocket-gems",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Square",
+          "translatedName": null,
+          "slug": "square",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Coupang",
+          "translatedName": null,
+          "slug": "coupang",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "206",
+      "questionFrontendId": "206",
+      "title": "Reverse Linked List",
+      "titleSlug": "reverse-linked-list",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"366.8K\", \"totalSubmission\": \"769.9K\", \"acRate\": \"47.6%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Linked List",
+          "translatedName": null,
+          "slug": "linked-list",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Zenefits",
+          "translatedName": null,
+          "slug": "zenefits",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yahoo",
+          "translatedName": null,
+          "slug": "yahoo",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Adobe",
+          "translatedName": null,
+          "slug": "adobe",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "15",
+      "questionFrontendId": "15",
+      "title": "3Sum",
+      "titleSlug": "3sum",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"339.7K\", \"totalSubmission\": \"1.6M\", \"acRate\": \"21.8%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Adobe",
+          "translatedName": null,
+          "slug": "adobe",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Works Applications",
+          "translatedName": null,
+          "slug": "works-applications",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "146",
+      "questionFrontendId": "146",
+      "title": "LRU Cache",
+      "titleSlug": "lru-cache",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"182K\", \"totalSubmission\": \"893K\", \"acRate\": \"20.4%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Design",
+          "translatedName": null,
+          "slug": "design",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Zenefits",
+          "translatedName": null,
+          "slug": "zenefits",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yahoo",
+          "translatedName": null,
+          "slug": "yahoo",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Palantir",
+          "translatedName": null,
+          "slug": "palantir",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "282",
+      "questionFrontendId": "282",
+      "title": "Expression Add Operators",
+      "titleSlug": "expression-add-operators",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"48.8K\", \"totalSubmission\": \"158.8K\", \"acRate\": \"30.7%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Divide and Conquer",
+          "translatedName": null,
+          "slug": "divide-and-conquer",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "17",
+      "questionFrontendId": "17",
+      "title": "Letter Combinations of a Phone Number",
+      "titleSlug": "letter-combinations-of-a-phone-number",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"248.1K\", \"totalSubmission\": \"668.4K\", \"acRate\": \"37.1%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Backtracking",
+          "translatedName": null,
+          "slug": "backtracking",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Dropbox",
+          "translatedName": null,
+          "slug": "dropbox",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "1",
+      "questionFrontendId": "1",
+      "title": "Two Sum",
+      "titleSlug": "two-sum",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"959.9K\", \"totalSubmission\": \"2.5M\", \"acRate\": \"38.4%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Apple",
+          "translatedName": null,
+          "slug": "apple",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Airbnb",
+          "translatedName": null,
+          "slug": "airbnb",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yahoo",
+          "translatedName": null,
+          "slug": "yahoo",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Adobe",
+          "translatedName": null,
+          "slug": "adobe",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Dropbox",
+          "translatedName": null,
+          "slug": "dropbox",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "210",
+      "questionFrontendId": "210",
+      "title": "Course Schedule II",
+      "titleSlug": "course-schedule-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"95.2K\", \"totalSubmission\": \"309.8K\", \"acRate\": \"30.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Graph",
+          "translatedName": null,
+          "slug": "graph",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Topological Sort",
+          "translatedName": null,
+          "slug": "topological-sort",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Zenefits",
+          "translatedName": null,
+          "slug": "zenefits",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "341",
+      "questionFrontendId": "341",
+      "title": "Flatten Nested List Iterator",
+      "titleSlug": "flatten-nested-list-iterator",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"67.6K\", \"totalSubmission\": \"155K\", \"acRate\": \"43.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Stack",
+          "translatedName": null,
+          "slug": "stack",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Design",
+          "translatedName": null,
+          "slug": "design",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "377",
+      "questionFrontendId": "377",
+      "title": "Combination Sum IV",
+      "titleSlug": "combination-sum-iv",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"62.2K\", \"totalSubmission\": \"144.6K\", \"acRate\": \"43.0%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "398",
+      "questionFrontendId": "398",
+      "title": "Random Pick Index",
+      "titleSlug": "random-pick-index",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"36.7K\", \"totalSubmission\": \"81.8K\", \"acRate\": \"44.8%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Reservoir Sampling",
+          "translatedName": null,
+          "slug": "reservoir-sampling",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "404",
+      "questionFrontendId": "404",
+      "title": "Sum of Left Leaves",
+      "titleSlug": "sum-of-left-leaves",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"91.3K\", \"totalSubmission\": \"191.4K\", \"acRate\": \"47.7%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "68",
+      "questionFrontendId": "68",
+      "title": "Text Justification",
+      "titleSlug": "text-justification",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"72.8K\", \"totalSubmission\": \"357.3K\", \"acRate\": \"20.4%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Airbnb",
+          "translatedName": null,
+          "slug": "airbnb",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "410",
+      "questionFrontendId": "410",
+      "title": "Split Array Largest Sum",
+      "titleSlug": "split-array-largest-sum",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"24.7K\", \"totalSubmission\": \"62.3K\", \"acRate\": \"39.6%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Binary Search",
+          "translatedName": null,
+          "slug": "binary-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Baidu",
+          "translatedName": null,
+          "slug": "baidu",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "44",
+      "questionFrontendId": "44",
+      "title": "Wildcard Matching",
+      "titleSlug": "wildcard-matching",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"129K\", \"totalSubmission\": \"607.7K\", \"acRate\": \"21.2%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Backtracking",
+          "translatedName": null,
+          "slug": "backtracking",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Greedy",
+          "translatedName": null,
+          "slug": "greedy",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Two Sigma",
+          "translatedName": null,
+          "slug": "two-sigma",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "253",
+      "questionFrontendId": "253",
+      "title": "Meeting Rooms II",
+      "titleSlug": "meeting-rooms-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"72.9K\", \"totalSubmission\": \"183.7K\", \"acRate\": \"39.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Heap",
+          "translatedName": null,
+          "slug": "heap",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Greedy",
+          "translatedName": null,
+          "slug": "greedy",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Sort",
+          "translatedName": null,
+          "slug": "sort",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "76",
+      "questionFrontendId": "76",
+      "title": "Minimum Window Substring",
+      "titleSlug": "minimum-window-substring",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"154.4K\", \"totalSubmission\": \"566K\", \"acRate\": \"27.3%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Two Pointers",
+          "translatedName": null,
+          "slug": "two-pointers",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Snapchat",
+          "translatedName": null,
+          "slug": "snapchat",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "380",
+      "questionFrontendId": "380",
+      "title": "Insert Delete GetRandom O(1)",
+      "titleSlug": "insert-delete-getrandom-o1",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"64.1K\", \"totalSubmission\": \"159.6K\", \"acRate\": \"40.1%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Design",
+          "translatedName": null,
+          "slug": "design",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Twitter",
+          "translatedName": null,
+          "slug": "twitter",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Pocket Gems",
+          "translatedName": null,
+          "slug": "pocket-gems",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "477",
+      "questionFrontendId": "477",
+      "title": "Total Hamming Distance",
+      "titleSlug": "total-hamming-distance",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"34.2K\", \"totalSubmission\": \"71.9K\", \"acRate\": \"47.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Bit Manipulation",
+          "translatedName": null,
+          "slug": "bit-manipulation",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "461",
+      "questionFrontendId": "461",
+      "title": "Hamming Distance",
+      "titleSlug": "hamming-distance",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"163.3K\", \"totalSubmission\": \"234.9K\", \"acRate\": \"69.5%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Bit Manipulation",
+          "translatedName": null,
+          "slug": "bit-manipulation",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "494",
+      "questionFrontendId": "494",
+      "title": "Target Sum",
+      "titleSlug": "target-sum",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"56K\", \"totalSubmission\": \"127.7K\", \"acRate\": \"43.9%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "525",
+      "questionFrontendId": "525",
+      "title": "Contiguous Array",
+      "titleSlug": "contiguous-array",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"26.3K\", \"totalSubmission\": \"63.3K\", \"acRate\": \"41.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "523",
+      "questionFrontendId": "523",
+      "title": "Continuous Subarray Sum",
+      "titleSlug": "continuous-subarray-sum",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"36.4K\", \"totalSubmission\": \"155.5K\", \"acRate\": \"23.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "535",
+      "questionFrontendId": "535",
+      "title": "Encode and Decode TinyURL",
+      "titleSlug": "encode-and-decode-tinyurl",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"42.1K\", \"totalSubmission\": \"57K\", \"acRate\": \"74.0%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "543",
+      "questionFrontendId": "543",
+      "title": "Diameter of Binary Tree",
+      "titleSlug": "diameter-of-binary-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"65.8K\", \"totalSubmission\": \"146.2K\", \"acRate\": \"45.0%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "554",
+      "questionFrontendId": "554",
+      "title": "Brick Wall",
+      "titleSlug": "brick-wall",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"24.2K\", \"totalSubmission\": \"51.9K\", \"acRate\": \"46.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Hash Table",
+          "translatedName": null,
+          "slug": "hash-table",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "572",
+      "questionFrontendId": "572",
+      "title": "Subtree of Another Tree",
+      "titleSlug": "subtree-of-another-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"52.4K\", \"totalSubmission\": \"130.1K\", \"acRate\": \"40.3%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "eBay",
+          "translatedName": null,
+          "slug": "ebay",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "578",
+      "questionFrontendId": "578",
+      "title": "Get Highest Answer Rate Question",
+      "titleSlug": "get-highest-answer-rate-question",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"3.6K\", \"totalSubmission\": \"11.8K\", \"acRate\": \"30.3%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "602",
+      "questionFrontendId": "602",
+      "title": "Friend Requests II: Who Has the Most Friends",
+      "titleSlug": "friend-requests-ii-who-has-the-most-friends",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"4.6K\", \"totalSubmission\": \"10.9K\", \"acRate\": \"42.1%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "597",
+      "questionFrontendId": "597",
+      "title": "Friend Requests I: Overall Acceptance Rate",
+      "titleSlug": "friend-requests-i-overall-acceptance-rate",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"5.7K\", \"totalSubmission\": \"15.1K\", \"acRate\": \"37.7%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": true,
+      "topicTags": [],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "621",
+      "questionFrontendId": "621",
+      "title": "Task Scheduler",
+      "titleSlug": "task-scheduler",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"37.4K\", \"totalSubmission\": \"88.2K\", \"acRate\": \"42.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Greedy",
+          "translatedName": null,
+          "slug": "greedy",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Queue",
+          "translatedName": null,
+          "slug": "queue",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "637",
+      "questionFrontendId": "637",
+      "title": "Average of Levels in Binary Tree",
+      "titleSlug": "average-of-levels-in-binary-tree",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"48K\", \"totalSubmission\": \"85.6K\", \"acRate\": \"56.1%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "639",
+      "questionFrontendId": "639",
+      "title": "Decode Ways II",
+      "titleSlug": "decode-ways-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"13.2K\", \"totalSubmission\": \"54.3K\", \"acRate\": \"24.3%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "642",
+      "questionFrontendId": "642",
+      "title": "Design Search Autocomplete System",
+      "titleSlug": "design-search-autocomplete-system",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"6.8K\", \"totalSubmission\": \"22.4K\", \"acRate\": \"30.3%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Design",
+          "translatedName": null,
+          "slug": "design",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Trie",
+          "translatedName": null,
+          "slug": "trie",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "636",
+      "questionFrontendId": "636",
+      "title": "Exclusive Time of Functions",
+      "titleSlug": "exclusive-time-of-functions",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"17.4K\", \"totalSubmission\": \"38.9K\", \"acRate\": \"44.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Stack",
+          "translatedName": null,
+          "slug": "stack",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Uber",
+          "translatedName": null,
+          "slug": "uber",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "653",
+      "questionFrontendId": "653",
+      "title": "Two Sum IV - Input is a BST",
+      "titleSlug": "two-sum-iv-input-is-a-bst",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"44.9K\", \"totalSubmission\": \"89.5K\", \"acRate\": \"50.2%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Tree",
+          "translatedName": null,
+          "slug": "tree",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Samsung",
+          "translatedName": null,
+          "slug": "samsung",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "670",
+      "questionFrontendId": "670",
+      "title": "Maximum Swap",
+      "titleSlug": "maximum-swap",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"23.2K\", \"totalSubmission\": \"59.9K\", \"acRate\": \"38.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "674",
+      "questionFrontendId": "674",
+      "title": "Longest Continuous Increasing Subsequence",
+      "titleSlug": "longest-continuous-increasing-subsequence",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"35.5K\", \"totalSubmission\": \"83.3K\", \"acRate\": \"42.6%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "673",
+      "questionFrontendId": "673",
+      "title": "Number of Longest Increasing Subsequence",
+      "titleSlug": "number-of-longest-increasing-subsequence",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"17.1K\", \"totalSubmission\": \"53.4K\", \"acRate\": \"31.9%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "680",
+      "questionFrontendId": "680",
+      "title": "Valid Palindrome II",
+      "titleSlug": "valid-palindrome-ii",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"32.6K\", \"totalSubmission\": \"100.8K\", \"acRate\": \"32.3%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "647",
+      "questionFrontendId": "647",
+      "title": "Palindromic Substrings",
+      "titleSlug": "palindromic-substrings",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"45.6K\", \"totalSubmission\": \"83.8K\", \"acRate\": \"54.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "LinkedIn",
+          "translatedName": null,
+          "slug": "linkedin",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "689",
+      "questionFrontendId": "689",
+      "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
+      "titleSlug": "maximum-sum-of-3-non-overlapping-subarrays",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"12.6K\", \"totalSubmission\": \"30.4K\", \"acRate\": \"41.3%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "714",
+      "questionFrontendId": "714",
+      "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+      "titleSlug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"18.8K\", \"totalSubmission\": \"40.2K\", \"acRate\": \"46.7%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Greedy",
+          "translatedName": null,
+          "slug": "greedy",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "721",
+      "questionFrontendId": "721",
+      "title": "Accounts Merge",
+      "titleSlug": "accounts-merge",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"12.1K\", \"totalSubmission\": \"36.1K\", \"acRate\": \"33.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Union Find",
+          "translatedName": null,
+          "slug": "union-find",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "746",
+      "questionFrontendId": "745",
+      "title": "Prefix and Suffix Search",
+      "titleSlug": "prefix-and-suffix-search",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"5K\", \"totalSubmission\": \"19.4K\", \"acRate\": \"26.0%\"}",
+      "difficulty": "Hard",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Trie",
+          "translatedName": null,
+          "slug": "trie",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "751",
+      "questionFrontendId": "750",
+      "title": "Number Of Corner Rectangles",
+      "titleSlug": "number-of-corner-rectangles",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"6.6K\", \"totalSubmission\": \"11.7K\", \"acRate\": \"56.5%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": true,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "769",
+      "questionFrontendId": "764",
+      "title": "Largest Plus Sign",
+      "titleSlug": "largest-plus-sign",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"6.5K\", \"totalSubmission\": \"16.4K\", \"acRate\": \"39.4%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "801",
+      "questionFrontendId": "785",
+      "title": "Is Graph Bipartite?",
+      "titleSlug": "is-graph-bipartite",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"9.3K\", \"totalSubmission\": \"24K\", \"acRate\": \"38.6%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "translatedName": null,
+          "slug": "breadth-first-search",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Graph",
+          "translatedName": null,
+          "slug": "graph",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "800",
+      "questionFrontendId": "784",
+      "title": "Letter Case Permutation",
+      "titleSlug": "letter-case-permutation",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"15.9K\", \"totalSubmission\": \"30K\", \"acRate\": \"53.0%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Backtracking",
+          "translatedName": null,
+          "slug": "backtracking",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Bit Manipulation",
+          "translatedName": null,
+          "slug": "bit-manipulation",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "268",
+      "questionFrontendId": "268",
+      "title": "Missing Number",
+      "titleSlug": "missing-number",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"182.2K\", \"totalSubmission\": \"400.7K\", \"acRate\": \"45.5%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Math",
+          "translatedName": null,
+          "slug": "math",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Bit Manipulation",
+          "translatedName": null,
+          "slug": "bit-manipulation",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Microsoft",
+          "translatedName": null,
+          "slug": "microsoft",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Bloomberg",
+          "translatedName": null,
+          "slug": "bloomberg",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "819",
+      "questionFrontendId": "801",
+      "title": "Minimum Swaps To Make Sequences Increasing",
+      "titleSlug": "minimum-swaps-to-make-sequences-increasing",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"17.7K\", \"acRate\": \"29.0%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Dynamic Programming",
+          "translatedName": null,
+          "slug": "dynamic-programming",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Amazon",
+          "translatedName": null,
+          "slug": "amazon",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": "ac",
+      "questionId": "851",
+      "questionFrontendId": "824",
+      "title": "Goat Latin",
+      "titleSlug": "goat-latin",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"9K\", \"totalSubmission\": \"16.2K\", \"acRate\": \"55.5%\"}",
+      "difficulty": "Easy",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "String",
+          "translatedName": null,
+          "slug": "string",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "852",
+      "questionFrontendId": "825",
+      "title": "Friends Of Appropriate Ages",
+      "titleSlug": "friends-of-appropriate-ages",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"15.5K\", \"acRate\": \"28.3%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Array",
+          "translatedName": null,
+          "slug": "array",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    },
+    {
+      "status": null,
+      "questionId": "394",
+      "questionFrontendId": "394",
+      "title": "Decode String",
+      "titleSlug": "decode-string",
+      "translatedTitle": null,
+      "stats": "{\"totalAccepted\": \"57.1K\", \"totalSubmission\": \"135.7K\", \"acRate\": \"42.1%\"}",
+      "difficulty": "Medium",
+      "isPaidOnly": false,
+      "topicTags": [
+        {
+          "name": "Stack",
+          "translatedName": null,
+          "slug": "stack",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Depth-first Search",
+          "translatedName": null,
+          "slug": "depth-first-search",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTags": [
+        {
+          "name": "Google",
+          "translatedName": null,
+          "slug": "google",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Facebook",
+          "translatedName": null,
+          "slug": "facebook",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Yelp",
+          "translatedName": null,
+          "slug": "yelp",
+          "__typename": "CompanyTagNode"
+        },
+        {
+          "name": "Coupang",
+          "translatedName": null,
+          "slug": "coupang",
+          "__typename": "CompanyTagNode"
+        }
+      ],
+      "__typename": "QuestionNode"
+    }
+  ],
+  "frequencies": "{\"852\": 21.622962438854206, \"851\": 20.68651819605554, \"819\": 0, \"801\": 31.71859673656164, \"800\": 0, \"769\": 0, \"751\": 0, \"746\": 0, \"721\": 47.4646325241011, \"714\": 10.705232060590456, \"689\": 73.31504090148096, \"680\": 67.31205051983613, \"674\": 16.319098635549214, \"673\": 0, \"670\": 38.81236979620568, \"653\": 0, \"647\": 16.208758319475603, \"642\": 41.23046643840029, \"639\": 13.692108217150295, \"637\": 0, \"636\": 61.88720588657163, \"621\": 88.91566223800416, \"602\": 51.874239698205635, \"597\": 59.01694884766332, \"578\": 0, \"572\": 0, \"554\": 18.194494761460813, \"543\": 72.14331419224052, \"535\": 0, \"525\": 0, \"523\": 32.074799222280426, \"494\": 34.62600432747454, \"477\": 27.479548145495624, \"461\": 9.38335109256934, \"410\": 6.518644954619246, \"404\": 3.960694574325137, \"398\": 28.651274854736055, \"394\": 42.40219314764072, \"380\": 20.079142671245055, \"377\": 15.467571384566458, \"341\": 56.67349542918246, \"334\": 13.048685479071318, \"325\": 81.88530198256157, \"314\": 78.37012185484028, \"311\": 74.48676761072139, \"301\": 90.08738894724459, \"297\": 77.19839514559985, \"286\": 30.54687002732121, \"285\": 44.31571437702711, \"283\": 86.5722088195233, \"282\": 60.30805698395391, \"278\": 70.97158748300009, \"277\": 69.13268760862124, \"275\": 0, \"274\": 5.050206934329365, \"273\": 87.74393552876373, \"269\": 23.073844786758702, \"268\": 3.1935977514527654, \"265\": 0, \"261\": 5.346918245378815, \"257\": 64.96859710135527, \"253\": 84.22875540104243, \"252\": 54.69387419806301, \"238\": 43.14398766778668, \"236\": 32.780863607107, \"235\": 13.229034226854893, \"234\": 4.464928978578392, \"221\": 4.99343391792352, \"218\": 26.307821436255193, \"215\": 53.35945082077098, \"211\": 60.18867555690375, \"210\": 6.993901166735471, \"209\": 23.540931128422162, \"208\": 23.98082490896802, \"206\": 36.9694577459554, \"200\": 70.30441431786167, \"173\": 66.1403238105957, \"168\": 1.1717267092404313, \"161\": 53.522147488822576, \"158\": 80.71357527332114, \"157\": 62.86538972455494, \"146\": 40.92252307320508, \"139\": 48.63635923334153, \"133\": 55.86560090730344, \"128\": 21.90211807751827, \"127\": 20.978555805604035, \"125\": 63.071185673560215, \"121\": 64.24291238280065, \"117\": 11.876958769830887, \"102\": 25.13609472701476, \"98\": 53.045966407446066, \"91\": 79.54184856408071, \"90\": 17.490825344789645, \"88\": 46.659167795507976, \"85\": 9.337354585216334, \"80\": 1.9670064724459015, \"79\": 32.723603287541735, \"78\": 49.80808594258196, \"76\": 68.48377722907657, \"75\": 39.98409650544611, \"71\": 18.91773847223718, \"69\": 14.295844675326027, \"68\": 9.533505351350025, \"67\": 85.40048211028287, \"57\": 45.487441086267545, \"56\": 61.673648625832335, \"50\": 8.165627875975902, \"49\": 33.729142328033056, \"44\": 21.557195795620363, \"43\": 50.97981265182239, \"38\": 29.823001563976486, \"33\": 38.40958015454738, \"28\": 18.04401856398002, \"26\": 6.73298741421984, \"25\": 3.138733181686333, \"23\": 61.47978369319434, \"20\": 35.79773103671497, \"17\": 83.057028691802, \"15\": 76.02666843635942, \"13\": 37.237853445306946, \"10\": 75.65849431996182, \"1\": 57.84522213842289}",
+  "__typename": "CompanyTagNode"
+}
