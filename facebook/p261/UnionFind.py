@@ -39,7 +39,7 @@ class WeightedUnionFind:
         return self.root(self.root_ids[x])
 
     def find(self, x, y):
-        return self.root_ids[x] == self.root_ids[y]
+        return self.root(x) == self.root(y)
 
     # we make the root of subset having smaller number of elements
     # point to the root of subset having larger number of elements
