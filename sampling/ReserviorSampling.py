@@ -8,7 +8,7 @@ class ListNode:
 import random
 
 
-class Solution:
+class ReserviorSampling:
 
     def __init__(self, head):
         """
