@@ -34,17 +34,18 @@ class SomeDataStruct:
     def __init__(self):
         self.heap = []
 
-    def add(self, item):
-        self.heap.append(item)
+    def add(self, event):
+        self.heap.append(event)
 
     def max(self):
         if self.heap:
-            return max(self.heap)
+            event = max(self.heap, key=lambda x: x.height)
+            return event.height
         return 0
 
-    def remove(self, item):
-        for idx, value in enumerate(self.heap):
-            if value == item:
+    def remove(self, event):
+        for idx, x in enumerate(self.heap):
+            if x.id == event.id:
                 del self.heap[idx]
 
 
@@ -60,17 +61,17 @@ class Solution:
         key_points = []
 
         for event in events:
-            print(str(event))
+            # print(str(event))
             if event.entering:
                 if event.height > ds.max():
                     key_points.append([event.x, event.height])
-                ds.add(event.height)
+                ds.add(event)
 
             if event.leaving:
-                ds.remove(event.height)
+                ds.remove(event)
                 if event.height > ds.max():
                     key_points.append([event.x, ds.max()])
-            print(ds.heap)
+            # print(list(map(lambda x: x.height, ds.heap)))
         return key_points
 
     def buildings_to_events(self, buildings):
@@ -88,8 +89,11 @@ def main():
     buildings = [[2, 9, 10], [3, 7, 15],
                  [5, 12, 12], [15, 20, 10],
                  [19, 24, 8]]
-    print(sol.getSkyline(buildings))
+    # print(sol.getSkyline(buildings))
     buildings = [[2, 5, 10], [5, 8, 10]]
+    # print(sol.getSkyline(buildings))
+    buildings = [[1, 2, 1], [1, 2, 2], [1, 2, 3]]
+    buildings = [[0, 3, 3], [1, 5, 3], [2, 4, 3], [3, 7, 3]]
     print(sol.getSkyline(buildings))
 
 # expected output
