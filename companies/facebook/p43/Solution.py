@@ -49,6 +49,34 @@ class Solution:
             if not (len(answer) == 0 and num == 0):
                 answer += str(num)
         return answer or '0'
+    
+    def multiply_again(self, num1, num2):
+        """
+        :type num1: str
+        :type num2: str
+        :rtype: str
+        """
+        if not num1 or not num2:
+            return ""
+        if num1 == "0" or num2 == "0":
+            return "0"
+
+        l1 = len(num1)
+        l2 = len(num2)
+        products = [0 for _ in range(l1 + l2)]
+        for i in reversed(range(l1)):
+            for j in reversed(range(l2)):
+                products[i+j+1] += int(num1[i]) * int(num2[j])
+
+        carry = 0
+        for i in reversed(range(l1 + l2)):
+            tmp = products[i] + carry
+
+            products[i] = tmp % 10
+            carry = tmp // 10
+
+        start = 1 if products[0] == 0 else 0
+        return ''.join(map(lambda x: str(x), products[start:]))
 
 if __name__ == '__main__':
     sol = Solution()
