@@ -1,14 +1,6 @@
 class Solution:
-    TABLE = {
-        "2": ["a", "b", "c"],
-        "3": ["d", "e", "f"],
-        "4": ["g", "h", "i"],
-        "5": ["j", "k", "l"],
-        "6": ["m", "n", "o"],
-        "7": ["p", "q", "r", "s"],
-        "8": ["t", "u", "v"],
-        "9": ["w", "x", "y", "z"]
-    }
+    CHARS_MAP = ["0", "1", "abc", "def", "ghi",
+                 "jkl", "mno", "pqrs", "tuv", "wxyz"]
 
     def letterCombinations(self, digits):
         """
@@ -19,12 +11,32 @@ class Solution:
             return []
 
         if len(digits) == 1:
-            return self.TABLE[digits[0]]
+            return list(self.CHARS_MAP[int(digits[0])])
 
         answer = []
         front = self.letterCombinations(digits[:-1])
         for fr in front:
-            for ch in self.TABLE[digits[-1]]:
+            for ch in self.CHARS_MAP[int(digits[-1])]:
                 answer.append(fr + ch)
 
         return answer
+
+class BfsSolution:
+    CHARS_MAP = ["0", "1", "abc", "def", "ghi",
+                 "jkl", "mno", "pqrs", "tuv", "wxyz"]
+    def letterCombinations(self, digits):
+        """
+        :type digits: str
+        :rtype: List[str]
+        """
+        if not digits:
+            return []
+        
+        results = [""]
+        for digit in digits:
+            temp = []
+            for ch in self.CHARS_MAP[int(digit)]:
+                for fr in results:
+                    temp.append(fr + ch)
+            results = temp
+        return results
