@@ -20,7 +20,7 @@ class Solution:
             else:
                 longest = max(longest, current)
                 current = 1
-
+        longest = max(longest, current)
         return longest
 
 class BetterSolution:
@@ -47,6 +47,7 @@ class BetterSolution:
 def main():
     sol = Solution()
     print(sol.longestConsecutive([100, 4, 200, 1, 3, 2]))
+    print(sol.longestConsecutive([4, 1, 3, 2]))
     better_sol = BetterSolution()
     print(better_sol.longestConsecutive([100, 4, 200, 1, 3, 2]))
 
