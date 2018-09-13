@@ -1,0 +1,66 @@
+Link是vitapowered 90mins 2 coding + bq + survey
+
+都是老题:
+1. 水果题
+2. 个无序数组要构建二叉搜索树，找两node距离题
+分享一些有用的总结帖，希望帮到大家:
+http://www.1point3acres.com/bbs/thread-288738-1-1.html
+http://www.1point3acres.com/bbs/thread-225078-1-1.html
+
+#################################
+http://www.1point3acres.com/bbs/thread-293144-1-1.html
+Tara 90min OA  + BQ + Survey  无摄像头录像， 有behavior tracking 有 web session 数量限制
+1 仓库卡车运输 
+2 电影top K rate  注意要抛出输入电影本身 ，compare rate时候 类型是float    PQ +BFS
+总结一下截止到现在社招 OA 题库：
+具体的题地里很多了 大家稍找一下就有了 
+1. 卡车装M个箱子， N个地点List<Integer> M<N 
+列出最近的M个位置。 PQ解决
+N个地点List<Integer> M<N 不用考慮 相乘 overflow 的問題嗎？
+PQ compare 里面直接写 相乘 没问题 因为题里明确给解释 就是按相乘之后算距离 没有遇到溢出的case
+http://www.1point3acres.com/bbs/thread-289277-1-1.html
+2. 给个无序数组要构建BST ， 然后找出Node1 Node2 距离
+http://www.1point3acres.com/bbs/thread-192414-1-1.html
+3. 棒球比赛求比分问题。 stack 解决
+http://www.1point3acres.com/bbs/thread-270278-1-1.html
+4. 高尔夫场砍树问题。 PQ + BFS ( LC The Maze II) 
+http://www.1point3acres.com/bbs/thread-288738-1-1.html
+5. 给公司雇员结构多叉树，求两个雇员共同上司。6. 找所有anagram
+找这个同学总结的pdf 里面有.
+http://www.1point3acres.com/bbs/thread-288537-1-1.html
+7. 水果清单
+http://www.1point3acres.com/bbs/thread-288738-1-1.html
+8，valid Parentheses LC 原题 stack 解决 可能会加入其它不相关字符.
+9.给个Movie movie BFS 找出所有关联电影中top K rate 的电影 Set<Movie> 
+http://www.1point3acres.com/bbs/thread-225078-1-1.html
+https://github.com/gszeliga/algorithms-and-more/blob/master/src/main/java/com/gzeliga/playground/algorithms/amazon/Movie.java
+Hireon 链接 题：
+10 菜单题 map + set 解决
+http://www.1point3acres.com/bbs/thread-280797-1-1.html
+11. 最大互联点数集合  itemAssociation
+http://www.1point3acres.com/bbs/thread-280797-1-1.html
+http://www.1point3acres.com/bbs/thread-281940-1-1.html
+#######################################
+golf球场修场地。
+public int flatFields (int numRows, int numColumns, List<List<Integer>> fields) {}.
+让小明帮公司球场修场地，给一个二维的链表fields，场地里有坑，不能走。 场地里有树要砍掉。最后目的返回是修好一层的场地的最小步数。
+Ex1:
+[
+[1, 3, 0, 2]
+[1, 1, 3, 1]
+]
+上图中的1代表平地，可以走。 0代表坑，不能走。 大于1的数字代表树木，需要砍掉。规则是从上下左右四个角开始任选一个开始走，先砍数字小的树木。 比如2 < 3，那么就得先走2。
+上图如果从右下角开始走依次经过的坐标是： （1， 3） -> (0, 3) -> (1, 3) -> (1, 2) -> (1, 1) -> (1, 0) 所以返回的最小步数是5， 因为通过这个路径可以修平第二层的球场[1, 1, 3, 1]， 并且走到左下角终点。
+Ex2:
+[
+[1, 0]
+[3, 2]
+]
+上图中的最小步数返回-1因为，没有办法修好一层， 因为从左上角1开始走，不能走到0， 也不能走3， 因为在全局中3比2大，必须先走2。所以就没法走了。
+
+###
+今天面到了水果这个问题.另外一个题是给出一个list of integer，需要根据这个order来建立一个BST，然后给两个节点，求节点之间的距离
+############################################
+1. golf 砍树
+2. warehouse 问题
+#############################################
