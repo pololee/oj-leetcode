@@ -12,13 +12,9 @@ class TopKSellingFood:
         for idx, counter in enumerate(sales_counter):
             top_k = ans[idx]
             for food, count in counter.items():
-                if len(top_k) < k:
-                    heapq.heappush(top_k, (count, food))
-                else:
-                    tmp_count, tmp_food = top_k[0]
-                    if count > tmp_count:
-                        heapq.heappop(top_k)
-                        heapq.heappush(top_k, (count, food))
+                heapq.heappush(top_k, (count, food))
+                if len(top_k) >= k:
+                    heapq.heappop(top_k)
         return list(map(lambda array: [item[1] for item in array], ans))
 
 
