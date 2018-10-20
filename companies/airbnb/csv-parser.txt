@@ -1,0 +1,22 @@
+他家经典的 csv parser 那题。
+/*
+John,Smith,john.smith@gmail.com,Los Angeles,1
+Jane,Roberts,janer@msn.com,"San Francisco, CA",0
+"Alexandra ""Alex""",Menendez,alex.menendez@gmail.com,Miami,1
+"""Alexandra Alex"""
+
+
+John|Smith|john.smith@gmail.com|Los Angeles|1
+Jane|Roberts|janer@msn.com|San Francisco, CA|0
+Alexandra "Alex"|Menendez|alex.menendez@gmail.com|Miami|1
+"Alexandra Alex"
+*/
+
+http://creativyst.com/Doc/Articles/CSV/CSV01.htm#EmbedBRs
+
+The Bullshit part is quote
+
+"Alexandra "Alex"" => Alexandra Alex # this is really an invalid csv input
+it should be
+"Alexandra ""Alex""" => Alexandra "Alex"
+
