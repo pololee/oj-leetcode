@@ -25,6 +25,12 @@ class Solution:
                     self.operation(ops, nums)
                 ops.pop()
             elif ch in ('+', '-'):
+                # So if the previous is not "(", then we need to
+                # calculate all the previous operations
+                # e.g. 1-2+3
+                # when we see +, we need to calculate 1-2
+                # e.g. 1-(1+2)
+                # when we see +, we don't calculate 1-1 because there is a "("
                 while ops and self.should_perform_ops(ops[-1], ch):
                     self.operation(ops, nums)
                 ops.append(ch)
