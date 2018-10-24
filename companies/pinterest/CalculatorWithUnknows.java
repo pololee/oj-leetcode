@@ -1,0 +1,78 @@
+public static int evaluate(String expression) {
+    if (expression == null || expression.isEmpty()) {
+        return 0;
+    }
+    int res = 0;
+    Deque<Integer> signStack = new LinkedList<>();
+    int sign = 1;
+    signStack.push(1);
+    for (int i = 0; i < expression.length(); i++) {
+        char ch = expression.charAt(i);
+        if(ch == '(') {
+            signStack.push(sign * signStack.peek());
+            sign = 1;
+        } else if (ch == ')') {
+            signStack.pop();
+        } else if (ch == '+') {
+            sign = 1;
+        } else if (ch == '-') {
+            sign = -1;
+        } else if (Character.isDigit(ch)) {
+            int num = ch - '0';
+            while (i + 1 < expression.length() && Character.isDigit(expression.charAt(i + 1))) {
+                num = num * 10 + expression.charAt(++i) - '0';
+            }
+            res += num * sign * signStack.peek();
+        }
+    }
+    return res;
+}
+
+public static String evaluate(String expression, Map<String, Integer> variables) {
+    if (expression == null || expression.isEmpty()) {
+        return "";
+    }
+    String res = "";
+    Deque<Integer> signStack = new LinkedList<>();
+    int sign = 1;
+    signStack.push(1);
+    List<String> unknownVariables = new ArrayList<>();
+    for (int i = 0; i < expression.length(); i++) {
+        char ch = expression.charAt(i);
+        if(ch == '(') {
+            signStack.push(sign * signStack.peek());
+            sign = 1;
+        } else if (ch == ')') {
+            signStack.pop();
+        } else if (ch == '+') {
+            sign = 1;
+        } else if (ch == '-') {
+            sign = -1;
+        } else if (Character.isDigit(ch)) {
+            int num = ch - '0';
+            while (i + 1 < expression.length() && Character.isDigit(expression.charAt(i + 1))) {
+                num = num * 10 + expression.charAt(++i) - '0';
+            }
+            String prefix = sign * signStack.peek() == 1 ? "+":"-";
+            res += prefix + num;
+        } else if (Character.isLowerCase(ch)) {
+            String variable = "" + ch;
+            while (i + 1 < expression.length() && Character.isLowerCase(expression.charAt(i + 1))) {
+                variable += expression.charAt(++i);
+            }
+            if (variables.containsKey(variable)) {
+                variable = "" + variables.get(variable);
+                String prefix = sign * signStack.peek() == 1 ? "+":"-";
+                res += prefix + variable;
+            } else {
+                String variableString = (signStack.peek() * sign == 1 ? "+" : "-") + variable;
+                unknownVariables.add(variableString);
+            }
+        }
+    }
+    res = "" + evaluate(res);
+    for (String each : unknownVariables) {
+        res += each;
+    }
+    return res;
+}
