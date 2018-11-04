@@ -28,7 +28,14 @@ class Solution:
                     reversedRight = rightSub[::-1]
                     if reversedRight in table and table[reversedRight] != idx:
                         ans.append([table[reversedRight], idx])
-
+                
+                # why > 0 ?
+                # Take ['abc', 'cba'] as an example
+                # when looking at 'abc'
+                # '' as left, 'abc' as right, then we have ('cba', 'abc')
+                # It's the same results, if we consider 'cba' as left, '' as right
+                # so we need to have len(right) > 0 to avoid duplicate result when we
+                # looking at 'cba'
                 if len(rightSub) > 0 and self.isPalindrome(rightSub):
                     reversedLeft = leftSub[::-1]
                     if reversedLeft in table and table[reversedLeft] != idx:
