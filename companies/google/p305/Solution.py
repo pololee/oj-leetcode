@@ -65,3 +65,6 @@ class Solution:
                     count -= 1
             answer.append(count)
         return answer
+
+sol = Solution()
+print(sol.numIslands2(2, 2, [[0, 0], [1, 1], [1, 0], [0, 1]]))
