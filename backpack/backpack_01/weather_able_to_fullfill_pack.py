@@ -1,3 +1,6 @@
+import unittest
+
+
 class Backpack1:
     def backpack(self, nums, M):
         col_size = M + 1
@@ -17,17 +20,20 @@ class Backpack1:
                     DP[i][j] = DP[i-1][j-nums[i-1]] or DP[i-1][j]
                 else:
                     DP[i][j] = DP[i-1][j]
-        
+
         for y in reversed(range(col_size)):
             if DP[row_size-1][y]:
                 return y
-        
+
         return 0
 
-def main():
-    backpack = Backpack1()
-    print(backpack.backpack([2, 3, 5, 7], 11))
-    print(backpack.backpack([2, 3, 7], 12))
+
+class Backpack1Test(unittest.TestCase):
+    def test_backpack(self):
+        backpack = Backpack1()
+        self.assertEqual(10, backpack.backpack([2, 3, 5, 7], 11))
+        self.assertEqual(12, backpack.backpack([2, 3, 7], 12))
+
 
 if __name__ == '__main__':
-    main()
+    unittest.main()
