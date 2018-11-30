@@ -1,3 +1,5 @@
+[post](http://novoland.github.io/%E7%AE%97%E6%B3%95/2014/07/26/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.html)
+
 Given `n` objects,
 the values of them are `[v0, v1, v2, ...]`
 the size of them are `[c0, c1, c2, ...]`
