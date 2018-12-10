@@ -1,10 +1,13 @@
 # Find the record
 
-In this interview, we'll pretend we are building a new analytical database. Don't worry about actually building a database though.
+In this interview, we'll pretend we are building a new analytical database. 
+Don't worry about actually building a database though.
 
 
 
-Here's how the database works: all records are represented as maps (or hashes), with string as keys and integer as values. The records are contained in an array, in **no particular order**.
+Here's how the database works: all records are represented as maps (or hashes), 
+with string as keys and integer as values. 
+The records are contained in an array, in **no particular order**.
 
 
 
@@ -12,7 +15,8 @@ Here's how the database works: all records are represented as maps (or hashes), 
 
 Implement `min_by_key`
 
-This function scans the array of records and returns the record that has the minimum value of a specified key.
+This function scans the array of records and returns the record 
+that has the minimum value of a specified key.
 
 - Records that do not contain the specified key are considered to have value 0 for the key
 - Keys may map to negative values
@@ -60,8 +64,11 @@ It takes three arguments:
 2. a string sort direction (which must be either "asc" or "desc")
 3. an array of records
 
-If the sort direction is "asc", it should return the minium record, otherwise it should return the maximum
-record.Change your `min_by_key` to use your `first_by_key`
+If the sort direction is "asc", 
+it should return the minium record,
+otherwise it should return the maximum record.
+
+Change your `min_by_key` to use your `first_by_key`
 
 Examples:
 
@@ -98,7 +105,10 @@ end
 
 Extract the comparison of records into a comparator. 
 
-Write a class whose constructor accepts two paramenters: **a string key and a string direction**. The class should implement a method `compare` that takes two records as its parameters. This method should return 
+Write a class whose constructor accepts two paramenters: 
+  **a string key and a string direction**. 
+The class should implement a method `compare` that takes two records as its parameters. 
+This method should return 
 
 - -1 if the first record comes before the second record (according to the key and direction)
 - 0 if neither record comes before each other
