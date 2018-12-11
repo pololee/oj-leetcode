@@ -40,3 +40,20 @@ need to consider whether `DP[i-1][j]` and `DP[i-1][j-ci]` exists
 `DP[][0] = 0` pack is always full because there is no space to put and the value is 0
 `DP[0][1..totalCapacity] = None` there are no ways to fully fill the pack
 
+# Number of solution to fullfill the pack
+
+1. state:
+`DP[i][j]` represents the number of solutions to fullfile the pack given
+the pack size is `j` and and pick some objects from the `first i` objects
+
+2. state transition function
+`DP[i][j] = DP[i-1][j] + DP[i][j-ci]`
+If not pick object `i`, the number of solutions is `DP[i-1][j]`
+If pick object `i`, the number of solutions is `DP[i][j-ci]`
+When `ci > j`, `DP[i][j] = DP[i-1][j]`
+
+3. basic case
+`DP[][0] = 1` pack is empty, the number of solutions is always 1
+`DP[0][1..totalCapacity] = 0` pack is not empty, but there are no objects to fill the pack. So
+the number of solution is 0
+
