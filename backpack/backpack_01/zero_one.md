@@ -57,3 +57,19 @@ When `ci > j`, `DP[i][j] = DP[i-1][j]`
 `DP[0][1..totalCapacity] = 0` pack is not empty, but there are no objects to fill the pack. So
 the number of solution is 0
 
+# minimum / maximum number of objects to fullfill the pack
+
+1. state:
+`DP[i][j]` represents the minimum number of objects needed to fullfill the pack
+given the pack size is `j` and pick some objects form the `first i` objects
+
+2. state transition function
+`DP[i][j] = min(DP[i-1][j], DP[i-1][j-ci] + 1)`
+`DP[i-1][j]` not pick object i, `DP[i-1][j-ci] + 1` pick object i
+when `ci > j`, `DP[i][j] = DP[i-1][j]`
+
+3. basic case
+`DP[][0] = 0` pack is empty, the minimum number of objects to fullfill the pack is 0
+`DP[0][1..totalCapacity] = None` pack is not empty, but there are no objects to pick.
+The answer does not exist
+
