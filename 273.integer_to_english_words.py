@@ -94,3 +94,75 @@ class Solution:
                 ans.append(self.LESS_THAN_TWENTY[b])
 
         return ans
+
+
+import collections
+
+class NewSolution:
+    LESS_THAN_TWENTY = [
+        "", "One", "Two", "Three", "Four", "Five",
+        "Six", "Seven", "Eight", "Nine", "Ten",
+        "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen",
+        "Sixteen", "Seventeen", "Eighteen", "Nineteen"
+    ]
+
+    TEN_TIMES = [
+        "", "", "Twenty", "Thirty", "Forty", "Fifty",
+        "Sixty", "Seventy", "Eighty", "Ninety"
+    ]
+
+    UNIT = [
+        "Thousand", "Million", "Billion"
+    ]
+    """
+    @param num: a non-negative integer
+    @return: english words representation
+    """
+    
+    def numberToWords(self, num):
+        # Write your code here
+        if num == 0:
+            return "Zero"
+        
+        ans = collections.deque()
+
+        if num % 1000 > 0:
+            ans.appendleft(self.convertLessThanThousand(num % 1000))
+            num //= 1000
+
+        for i in range(3):
+            if num % 1000 == 0:
+                break
+            ans.appendleft(self.UNIT[i])
+            ans.appendleft(self.convertLessThanThousand(num % 1000))
+            num //= 1000
+        
+        return " ".join(ans)
+        
+    
+    def convertLessThanHundred(self, n):
+        ans = []
+
+        if n < 20:
+            ans.append(self.LESS_THAN_TWENTY[n])
+        else:
+            x, y = n // 10, n % 10
+            ans.append(self.TEN_TIMES[x])
+            if y > 0:
+                ans.append(self.LESS_THAN_TWENTY[y])
+        
+        return " ".join(ans)
+    
+    def convertLessThanThousand(self, n):
+        if n < 100:
+            return self.convertLessThanHundred(n)
+        
+        ans = []
+        x, y = n // 100, n % 100
+        ans.append(self.LESS_THAN_TWENTY[x])
+        ans.append("Hundred")
+        ans.append(self.convertLessThanHundred(y))
+        return " ".join(ans)
+
+sol = NewSolution()
+print("\"{}\"".format(sol.numberToWords(680)))
