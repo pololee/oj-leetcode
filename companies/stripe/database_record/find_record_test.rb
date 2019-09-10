@@ -13,4 +13,71 @@ class FindRecordTest < Minitest::Test
     assert_equal({}, fr.min_by_key(key: :a, records: [{}]))
     assert_equal({ b: -1 }, fr.min_by_key(key: :b, records: [{ a: -1 }, { b: -1 }]))
   end
+
+  def test_first_by_key__empty
+    fr = FindRecord.new
+
+    assert_empty fr.first_by_key(key: :a, direction: 'asc')
+  end
+
+  def test_first_by_key__invalid_direction
+    fr = FindRecord.new
+
+    assert_raises Exception do
+      fr.first_by_key(key: :a, direction: 'invalid', records: [{ a: 1 }])
+    end
+  end
+
+  def test_first_by_key
+    fr = FindRecord.new
+
+    assert_equal(
+      { 'a': 1 },
+      fr.first_by_key(
+        key: 'a',
+        direction: FindRecord::DIRECTIONS[:asc],
+        records: [{ "a": 1 }]
+      )
+    )
+    assert_includes(
+      [{ b: 1 }, { b: -2 }],
+      fr.first_by_key(
+        key: :a,
+        direction: FindRecord::DIRECTIONS[:asc],
+        records: [{ b: 1 }, { b: -2 }, { a: 10 }]
+      )
+    )
+    assert_equal(
+      { a: 10 },
+      fr.first_by_key(
+        key: :a,
+        direction: FindRecord::DIRECTIONS[:desc],
+        records: [{ b: 1 }, { b: -2 }, { a: 10 }]
+      )
+    )
+    assert_equal(
+      { b: -2 },
+      fr.first_by_key(
+        key: :b,
+        direction: FindRecord::DIRECTIONS[:asc],
+        records: [{ b: 1 }, { b: -2 }, { a: 10 }]
+      )
+    )
+    assert_equal(
+      { b: 1 },
+      fr.first_by_key(
+        key: :b,
+        direction: FindRecord::DIRECTIONS[:desc],
+        records: [{ b: 1 }, { b: -2 }, { a: 10 }]
+      )
+    )
+    assert_equal(
+      { a: 10, b: -10 },
+      fr.first_by_key(
+        key: :a,
+        direction: FindRecord::DIRECTIONS[:desc],
+        records: [{}, { a: 10, b: -10 }, {}, { a: 3, c: 3 }]
+      )
+    )
+  end
 end
