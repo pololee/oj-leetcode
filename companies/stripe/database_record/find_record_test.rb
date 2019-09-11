@@ -81,3 +81,22 @@ class FindRecordTest < Minitest::Test
     )
   end
 end
+
+class RecordComparatorTest < Minitest::Test
+  def test_compare__asc
+    comparator = RecordComparator.new(key: :a, direction: FindRecord::DIRECTIONS[:asc])
+    assert_equal(-1, comparator.compare({ a: 1 }, a: 2))
+    assert_equal 1, comparator.compare({ a: 2 }, a: 1)
+    assert_equal 0, comparator.compare({ a: 1 }, a: 1)
+    assert_equal 1, comparator.compare({ a: 1 }, b: 1)
+  end
+
+  def test_compare__desc
+    comparator = RecordComparator.new(key: :a, direction: FindRecord::DIRECTIONS[:desc])
+
+    assert_equal(1, comparator.compare({ a: 1 }, a: 2))
+    assert_equal(-1, comparator.compare({ a: 2 }, a: 1))
+    assert_equal(0, comparator.compare({ a: 1 }, a: 1))
+    assert_equal(-1, comparator.compare({ a: 1 }, b: 1))
+  end
+end
