@@ -12,14 +12,26 @@ class FindRecord
   end
 
   def first_by_key(key:, direction:, records: [])
-    return {} if records.empty?
+    first_sort_by_key(sort_orders: [[key, direction]], records: records)
+  end
 
-    raise Exception.new("invalid direction: #{direction}") unless DIRECTIONS.values.include?(direction)
+  def first_sort_by_key(sort_orders: [], records: [])
+    return {} if sort_orders.empty? || records.empty?
+
+    comparators = sort_orders.map do |order|
+      raise Exception.new("invalid direction: #{order[1]}") unless DIRECTIONS.values.include?(order[1])
+
+      RecordComparator.new(key: order[0], direction: order[1])
+    end
 
     answer = records[0]
-    comparator = RecordComparator.new(key: key, direction: direction)
     records[1..].each do |record|
-      answer = record if comparator.compare(record, answer).negative?
+      comparators.each do |comparator|
+        if comparator.compare(record, answer).negative?
+          answer = record
+          break
+        end
+      end
     end
 
     answer

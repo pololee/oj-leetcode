@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require '../test_helper'
-require './find_record'
+require_relative '../test_helper'
+require_relative './find_record'
 
 class FindRecordTest < Minitest::Test
   def test_min_by_key
