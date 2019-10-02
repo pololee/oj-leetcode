@@ -85,9 +85,19 @@ class TimeMap
     entries = table[key]
     idx = entries.bsearch_index { |x| x.timestamp > timestamp }
 
+    # even the last entry's timestamp is < input timestamp
+    # meaning the last entry's timestamp is the biggest timstamp that is < input timestamp
+    # so return this entry's value
     return entries[-1].value if idx.nil?
+
+    # even the first entry's timestamp is > input timestamp
+    # meaning there is no entry's timestamp < input timestamp
+    # the entry doesn't exist, return ''
     return '' if idx.zero?
 
+    # the entries[idx]'s timestamp is > input timestamp
+    # the entries[idx-1]'s timestamp is < input timestamp
+    # so return entries[idx-1]'s value
     entries[idx - 1].value
   end
 end
