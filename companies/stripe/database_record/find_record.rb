@@ -25,7 +25,7 @@ class FindRecord
     end
 
     answer = records[0]
-    records[1..].each do |record|
+    records[1..-1].each do |record|
       comparators.each do |comparator|
         if comparator.compare(record, answer).negative?
           answer = record
