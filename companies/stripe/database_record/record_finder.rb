@@ -15,21 +15,10 @@ class RecordFinder
   def last_by_sort_order(sort_order, records)
     return {} if records.empty?
 
-    cmps = sort_order.map do |order|
-      raise ArgumentError.new("unknown order #{order}") unless DIRECTIONS.values.include?(order[1])
-
-      RecordComparator.new(order[0], order[1])
-    end
-
     ans = records[0]
+    sort_order_cmd = SortOrderCmd.new('last', sort_order)
     records[1..-1].each do |rec|
-      cmps.each do |cmp|
-        next if cmp.compare(rec, ans).zero?
-        break if cmp.compare(rec, ans).negative?
-
-        ans = rec
-        break
-      end
+      ans = rec if sort_order_cmd.should_replace?(rec, ans)
     end
 
     ans
@@ -38,21 +27,10 @@ class RecordFinder
   def first_by_sort_order(sort_order, records)
     return {} if records.empty?
 
-    cmps = sort_order.map do |order|
-      raise ArgumentError.new("unknown order #{order}") unless DIRECTIONS.values.include?(order[1])
-
-      RecordComparator.new(order[0], order[1])
-    end
-
     ans = records[0]
+    sort_order_cmd = SortOrderCmd.new('first', sort_order)
     records[1..-1].each do |rec|
-      cmps.each do |cmp|
-        next if cmp.compare(rec, ans).zero?
-        break if cmp.compare(rec, ans).positive?
-
-        ans = rec
-        break
-      end
+      ans = rec if sort_order_cmd.should_replace?(rec, ans)
     end
 
     ans
@@ -83,26 +61,32 @@ class RecordComparator
   end
 end
 
-class SortOrder
-  ORDERS = {
-    first: 'first',
-    last: 'last'
-  }.freeze
+class SortOrderCmd
+  attr_reader :order, :cmps
 
-  attr_reader :order, :comparators
-
-  def initialize(order, comparators)
+  def initialize(order, sort_order)
     @order = order
-    @comparators = comparators
+    @cmps = record_comparators(sort_order)
   end
 
-  def compare(left, right)
-    comparators.each do |cmp|
-      next if cmp.compare(left, right).zero?
-      return ORDERS[:first] == order ? -1 : 1 if cmp.compare(left, right).negative?
+  def should_replace?(candidate, target)
+    cmps.each do |cmp|
+      next if cmp.compare(candidate, target).zero?
 
-      return ORDERS[:first] == order ? 1 : -1
+      return order == 'first' if cmp.compare(candidate, target).negative?
+      return order == 'last' if cmp.compare(candidate, target).positive?
     end
-    0
+
+    false
+  end
+
+  private
+
+  def record_comparators(sort_order)
+    sort_order.map do |order|
+      raise ArgumentError.new("invalid order #{order}") unless RecordFinder::DIRECTIONS.values.include?(order[1])
+
+      RecordComparator.new(order[0], order[1])
+    end
   end
 end
