@@ -10,9 +10,10 @@ class Vector2D(object):
     def next(self):
         # @return {int} a next element
         # Write your code here
-        value = self.vec2d[self.row][self.col]
-        self.col += 1
-        return value
+        if self.hasNext():
+            value = self.vec2d[self.row][self.col]
+            self.col += 1
+            return value
 
     def hasNext(self):
         # @return {boolean} true if it has next element
