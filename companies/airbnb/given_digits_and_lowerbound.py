@@ -11,76 +11,70 @@
 # Input: [3,...,3,1] (100 * 3), "13...34" (99 * 3)
 # Output: 313...3
 
-# Notes I assume:
-# lower_bound: positive integer, represented as a string
-# a list of digits: so each value is from  0, 1, ..., 9
-# return value
+# Notes I asked:
+# - lower_bound: positive integer
+# - a list of digits: so each value is from  0, 1, ..., 9
+# - you have to use all the digits in the list
+# - there could be duplicates in the digit list
 
 from typing import *
-import bisect
 import unittest
-
-# bisect.bisect(arry, x) returns i so that all(val <= x for val in a[0:i]) and all(val > x for val in a[i:])
 
 
 class Solution:
     def find_smallest(self, digits: List[int], lower_bound: int) -> int:
-        if not digits:
-            raise Exception("digits cannot be empty")
-
         if lower_bound <= 0:
-            raise Exception("should be positive number")
+            return ""
 
-        if all(val == 0 for val in digits):
-            raise Exception("digits cannot be all zeros")
-
-        lower_bound_digits = self.to_digits(lower_bound)
-
-        if len(digits) < len(lower_bound_digits):
-            raise Exception("cannot find a number")
-
-        if len(digits) > len(lower_bound_digits):
-            self.to_int(sorted(digits))
+        lower_bound_digits = self.to_digits(lower_bound, len(digits))
+        table = self.to_table(digits)
 
         solution = []
-        self.find_smallest_util(
-            solution, sorted(digits), lower_bound_digits, 0
-        )
-        return self.to_int(solution)
+        if self.find_smallest_util(solution, table, lower_bound_digits, 0):
+            return self.to_int(solution)
+        return ""
 
-    def find_smallest_util(self, solution, sorted_digits, lower_bound_digits, idx):
+    def find_smallest_util(self, solution, table, lower_bound_digits, idx):
         if idx == len(lower_bound_digits):
             return True
 
         target = lower_bound_digits[idx]
-        candidate_idx = bisect.bisect(sorted_digits, target)
-        if candidate_idx == 0:  # all digits larger than target
-            solution.extend(sorted_digits)
-            return True
+        if idx == 0 and target == 0:
+            target = 1
 
-        if candidate_idx >= len(sorted_digits) and sorted_digits[candidate_idx - 1] < target:
+        if table[target] > 0:
+            solution.append(target)
+            table[target] -= 1
+
+            if self.find_smallest_util(solution, table, lower_bound_digits, idx + 1):
+                return True
+
+            solution.pop()
+            table[target] += 1
+
+        candidate = target + 1
+        while candidate < 10 and table[candidate] <= 0:
+            candidate += 1
+
+        if candidate > 9:
             return False
 
-        if sorted_digits[candidate_idx - 1] == target:
-            solution.append(sorted_digits[candidate_idx - 1])
-            new_sorted_digits = sorted_digits[:candidate_idx - 1] + sorted_digits[candidate_idx:]
-            if self.find_smallest_util(solution, new_sorted_digits, lower_bound_digits, idx + 1):
-                return True
-            solution.pop()
+        solution.append(candidate)
+        table[candidate] -= 1
+        for i in range(10):
+            for _ in range(table[i]):
+                solution.append(i)
+        return True
 
-        if candidate_idx < len(sorted_digits) and sorted_digits[candidate_idx] > target:
-            solution.append(sorted_digits[candidate_idx])
-            solution.extend(sorted_digits[:candidate_idx])
-            solution.extend(sorted_digits[candidate_idx+1:])
-            return True
-
-        return False
-
-    def to_digits(self, lower_bound):
+    def to_digits(self, value, size):
         ans = []
-        while lower_bound > 0:
-            ans.append(lower_bound % 10)
-            lower_bound = lower_bound // 10
+        while value > 0:
+            ans.append(value % 10)
+            value = value // 10
+
+        curr_size = len(ans)
+        for _ in range(curr_size, size):
+            ans.append(0)
 
         return list(reversed(ans))
 
@@ -90,6 +84,12 @@ class Solution:
             ans = ans * 10 + val
 
         return ans
+
+    def to_table(self, digits):
+        table = [0 for _ in range(10)]
+        for x in digits:
+            table[x] += 1
+        return table
 
 
 class SolutionTest(unittest.TestCase):
@@ -102,6 +102,8 @@ class SolutionTest(unittest.TestCase):
         self.assertEqual(313, self.sol.find_smallest([3, 1, 3], 134))
         self.assertEqual(130, self.sol.find_smallest([0, 1, 3], 105))
         self.assertEqual(301, self.sol.find_smallest([0, 1, 3], 131))
+        self.assertEqual(103, self.sol.find_smallest([0, 1, 3], 1))
+
 
 if __name__ == "__main__":
     unittest.main()
